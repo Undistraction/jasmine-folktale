@@ -8,7 +8,7 @@
 
 Jasmine Matchers for use with [folktale](http://folktale.origamitower.com/api/v2.1.0/en/folktale.html).
 
-Use with Jasmine or anything that supports [Jasmine](https://jasmine.github.io/) matchers, like [Jest](https://facebook.github.io/jest/).
+Use with [Jasmine](https://jasmine.github.io/) or anything that supports Jasmine matchers, like [Jest](https://facebook.github.io/jest/).
 
 ## Install
 
