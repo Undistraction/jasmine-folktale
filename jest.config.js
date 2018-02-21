@@ -4,7 +4,8 @@ module.exports = {
   collectCoverage: true,
   collectCoverageFrom: [`src/**/*.js`],
   coveragePathIgnorePatterns: [`src/index.js`],
-  coverageReporters: [`json`],
+  coverageReporters: [`lcov`, `html`],
   setupFiles: [],
   modulePathIgnorePatterns: [`testHelpers/`],
-};
+  setupTestFrameworkScriptFile: `<rootDir>/src/__tests__/testHelpers/customMatchers.js`,
+}
