@@ -1,17 +1,19 @@
-# jest-folktale
+# jasmine-folktale
 
-Jest Matchers for use with [folktale](http://folktale.origamitower.com/api/v2.1.0/en/folktale.html)
+Jasmine Matchers for use with [folktale](http://folktale.origamitower.com/api/v2.1.0/en/folktale.html).
+
+Use with Jasmine or anything that supports [Jasmine](https://jasmine.github.io/) matchers, like [Jest](https://facebook.github.io/jest/).
 
 ## Install
 
 ```
-yarn add jest-folktale
+yarn add jasmine-folktale
 ```
 
 or
 
 ```
-npm install jest-folktale
+npm install jasmine-folktale
 ```
 
 ## Matchers

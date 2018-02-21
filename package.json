@@ -1,23 +1,19 @@
 {
-  "name": "jest-folktale",
+  "name": "jasmine-folktale",
   "version": "0.0.1",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://Undistraction@github.com/Undistraction/jest-folktale.git"
+    "url": "https://Undistraction@github.com/Undistraction/jasmine-folktale.git"
   },
-  "files": [
-    "dist",
-    "src",
-    "lib"
-  ],
+  "files": ["dist", "src", "lib"],
   "keywords": [],
   "author": "#{author.name}",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Undistraction/jest-folktale/issues"
+    "url": "https://github.com/Undistraction/jasmine-folktale/issues"
   },
-  "homepage": "https://github.com/Undistraction/jest-folktale",
+  "homepage": "https://github.com/Undistraction/jasmine-folktale",
   "scripts": {
     "build": "npm run build:lib && npm run build:dist",
     "prebuild:lib": "rimraf lib/*",
