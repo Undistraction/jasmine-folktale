@@ -6,11 +6,7 @@
     "type": "git",
     "url": "https://Undistraction@github.com/Undistraction/jasmine-folktale.git"
   },
-  "files": [
-    "dist",
-    "src",
-    "lib"
-  ],
+  "files": ["dist", "src", "lib"],
   "keywords": [],
   "author": "#{author.name}",
   "license": "MIT",
@@ -19,12 +15,10 @@
   },
   "homepage": "https://github.com/Undistraction/jasmine-folktale",
   "scripts": {
-    "build": "npm run build:lib && npm run build:dist",
+    "build": "npm run build:lib",
     "prebuild:lib": "rimraf lib/*",
     "prebuild": "npm run lint",
     "build:lib": "babel --out-dir lib --ignore \"__tests__\" src",
-    "prebuild:dist": "rimraf dist/*",
-    "build:dist": "NODE_ENV=development rollup --config",
     "test": "jest --watch",
     "test:noWatch": "jest",
     "prepublishOnly": "npm run build",
