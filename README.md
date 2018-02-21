@@ -13,3 +13,21 @@ or
 ```
 npm install jest-folktale
 ```
+
+## Matchers
+
+### toEqualSuccessWithValue
+
+```
+const value = { a: 1 }
+const validation = Success(value)
+expect(validation).toEqualSuccessWithValue(value) // Pass
+```
+
+### toEqualFailureWithValue
+
+```
+const value = { a: 1 }
+const validation = Failure(value)
+expect(validation).toEqualFailureWithValue(value) // Pass
+```
