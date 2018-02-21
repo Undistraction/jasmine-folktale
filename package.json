@@ -1,12 +1,16 @@
 {
   "name": "jasmine-folktale",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "https://Undistraction@github.com/Undistraction/jasmine-folktale.git"
   },
-  "files": ["dist", "src", "lib"],
+  "files": [
+    "dist",
+    "src",
+    "lib"
+  ],
   "keywords": [],
   "author": "#{author.name}",
   "license": "MIT",
